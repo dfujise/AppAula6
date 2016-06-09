@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FormulariosActivity"></activity>
+        <activity android:name=".FormulariosActivity" />
+        <activity android:name=".BarsActivity" />
+        <activity android:name=".AdaptersActivity"></activity>
     </application>
 
 </manifest>

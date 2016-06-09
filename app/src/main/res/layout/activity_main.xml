@@ -14,21 +14,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Formularios"
-        android:id="@+id/button"
+        android:id="@+id/formularios"
         android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
+        android:text="Adapters"
+        android:id="@+id/adapters"
         android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button3"
+        android:text="Bars"
+        android:id="@+id/Bars"
         android:layout_gravity="center_horizontal" />
 
     <Button

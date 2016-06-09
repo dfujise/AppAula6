@@ -15,11 +15,29 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button bChamar = (Button) findViewById(button);
+        Button bChamar = (Button) findViewById(R.id.formularios);
         bChamar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, FormulariosActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button bChamarAdapters = (Button) findViewById(R.id.adapters);
+        bChamarAdapters.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, AdaptersActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button bChamarBars = (Button) findViewById(R.id.Bars);
+        bChamarBars.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, BarsActivity.class);
                 startActivity(intent);
             }
         });
