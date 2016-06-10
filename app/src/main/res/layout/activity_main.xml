@@ -34,7 +34,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button4"
+        android:text="ImageView"
+        android:id="@+id/ImageView"
         android:layout_gravity="center_horizontal" />
 </LinearLayout>

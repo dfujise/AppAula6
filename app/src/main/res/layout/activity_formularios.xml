@@ -46,9 +46,10 @@
         android:inputType="number" />
 
     <Button
+        android:background="@drawable/botao_customizado"
         android:id="@+id/button"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:text="Botao" />
 
 </LinearLayout>

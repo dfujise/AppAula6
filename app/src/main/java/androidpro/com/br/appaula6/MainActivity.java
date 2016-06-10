@@ -41,5 +41,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button bChamarImageView = (Button) findViewById(R.id.ImageView);
+        bChamarImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ImageViewActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
